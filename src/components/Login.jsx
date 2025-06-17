@@ -22,7 +22,7 @@ const Login = ({ onLogin }) => {
         <input
           type="email"
           placeholder="Email"
-          className="w-[55%] px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+          className="w-[50%] px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           required
@@ -37,7 +37,7 @@ const Login = ({ onLogin }) => {
         <input
           type="password"
           placeholder="Password"
-          className="w-[55%] px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+          className="w-[50%] px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
           required

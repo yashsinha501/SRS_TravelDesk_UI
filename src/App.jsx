@@ -6,6 +6,8 @@ import RegisterForm from './components/Register';
 import BookingForm from './components/BookingForm';
 import BookingDetails from './components/BookingDetails';
 import FormDisplay from './components/FormDisplay';
+import DashBoard from './components/TravelAdmin/DashBoard';
+import TravelRequests from './components/TravelRequests';
 
 function App() {
 
@@ -19,6 +21,8 @@ function App() {
           <Route path="/bookingForm" element={<BookingForm />} />
           <Route path="/bookingDetails" element={<BookingDetails />} />
           <Route path="/formDisplay" element={<FormDisplay />} />
+          <Route path="/dashboard" element={<DashBoard />} />
+          <Route path="/travelrequests" element={<TravelRequests />} />
           <Route path="*" element={<h1 className="text-xl text-center">404 Not Found</h1>} />
         </Routes>
       </div>

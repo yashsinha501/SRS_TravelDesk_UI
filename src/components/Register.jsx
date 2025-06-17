@@ -32,7 +32,7 @@ const Register = ({ onRegister }) => {
             <input
             type="text"
             placeholder="Employee ID"
-            className=" px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 w-[55%]"
+            className=" px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 w-[50%]"
             value={employeeID}
             onChange={(e) => setEmployeeID(e.target.value)}
             required
@@ -47,7 +47,7 @@ const Register = ({ onRegister }) => {
             <input
             type="text"
             placeholder="First Name"
-            className="w-[55%] px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
+            className="w-[50%] px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
             value={firstname}
             onChange={(e) => setFirstname(e.target.value)}
             required
@@ -63,7 +63,7 @@ const Register = ({ onRegister }) => {
             <input
             type="text"
             placeholder="Last Name"
-            className="w-[55%] px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
+            className="w-[50%] px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
             value={lastname}
             onChange={(e) => setLastname(e.target.value)}
             required
@@ -79,7 +79,7 @@ const Register = ({ onRegister }) => {
             <input
             type="email"
             placeholder="Email"
-            className="w-[55%] px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
+            className="w-[50%] px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             required
@@ -94,7 +94,7 @@ const Register = ({ onRegister }) => {
         <input
           type="password"
           placeholder="Password"
-          className="w-[55%] px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
+          className="w-[50%] px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
           required
@@ -109,7 +109,7 @@ const Register = ({ onRegister }) => {
         <input
           type="password"
           placeholder="Confirm Password"
-          className="w-[55%] px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
+          className="w-[50%] px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
           value={confirmPassword}
           onChange={(e) => setConfirmPassword(e.target.value)}
           required
@@ -125,7 +125,7 @@ const Register = ({ onRegister }) => {
             <input
             type="text"
             placeholder="Department"
-            className="w-[55%] px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
+            className="w-[50%] px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
             value={department}
             onChange={(e) => setDepartment(e.target.value)}
             required
@@ -141,7 +141,7 @@ const Register = ({ onRegister }) => {
             <input
             type="text"
             placeholder="Manager Name"
-            className="w-[55%] px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
+            className="w-[50%] px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
             value={managerName}
             onChange={(e) => setManagerName(e.target.value)}
             required
@@ -157,7 +157,7 @@ const Register = ({ onRegister }) => {
             id="role"
             value={role}
             onChange={(e) => setRole(e.target.value)}
-            className="w-[55%] px-4 py-2 border rounded-md bg-white focus:outline-none focus:ring-2 focus:ring-green-500"
+            className="w-[50%] px-4 py-2 border rounded-md bg-white focus:outline-none focus:ring-2 focus:ring-green-500"
             required
           >
             <option value="Admin">Admin</option>
